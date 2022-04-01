@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "TextScanSDK",
+        "repositoryURL": "https://github.com/adilanwerawan/TextScanSDK.git",
+        "state": {
+          "branch": "main",
+          "revision": "5bd3f7389147f6b09b0b29b530343fcbcde89f03",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

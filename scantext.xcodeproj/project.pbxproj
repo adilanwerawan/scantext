@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		FA37732627F5FA3D0089B7D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA37732527F5FA3D0089B7D6 /* AppDelegate.swift */; };
 		FA37732827F5FA3D0089B7D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA37732727F5FA3D0089B7D6 /* SceneDelegate.swift */; };
-		FA37732A27F5FA3D0089B7D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA37732927F5FA3D0089B7D6 /* ViewController.swift */; };
+		FA37732A27F5FA3D0089B7D6 /* MyTextScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA37732927F5FA3D0089B7D6 /* MyTextScanViewController.swift */; };
 		FA37732D27F5FA3D0089B7D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA37732B27F5FA3D0089B7D6 /* Main.storyboard */; };
 		FA37732F27F5FA410089B7D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA37732E27F5FA410089B7D6 /* Assets.xcassets */; };
 		FA37733227F5FA410089B7D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA37733027F5FA410089B7D6 /* LaunchScreen.storyboard */; };
 		FA37733D27F5FA420089B7D6 /* scantextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA37733C27F5FA420089B7D6 /* scantextTests.swift */; };
 		FA37734727F5FA420089B7D6 /* scantextUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA37734627F5FA420089B7D6 /* scantextUITests.swift */; };
 		FA37734927F5FA420089B7D6 /* scantextUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA37734827F5FA420089B7D6 /* scantextUITestsLaunchTests.swift */; };
+		FA37736527F61C0E0089B7D6 /* TextScanSDK in Frameworks */ = {isa = PBXBuildFile; productRef = FA37736427F61C0E0089B7D6 /* TextScanSDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,7 @@
 		FA37732227F5FA3D0089B7D6 /* scantext.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scantext.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA37732527F5FA3D0089B7D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA37732727F5FA3D0089B7D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FA37732927F5FA3D0089B7D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA37732927F5FA3D0089B7D6 /* MyTextScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextScanViewController.swift; sourceTree = "<group>"; };
 		FA37732C27F5FA3D0089B7D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA37732E27F5FA410089B7D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA37733127F5FA410089B7D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA37736527F61C0E0089B7D6 /* TextScanSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +103,7 @@
 			children = (
 				FA37732527F5FA3D0089B7D6 /* AppDelegate.swift */,
 				FA37732727F5FA3D0089B7D6 /* SceneDelegate.swift */,
-				FA37732927F5FA3D0089B7D6 /* ViewController.swift */,
+				FA37732927F5FA3D0089B7D6 /* MyTextScanViewController.swift */,
 				FA37732B27F5FA3D0089B7D6 /* Main.storyboard */,
 				FA37732E27F5FA410089B7D6 /* Assets.xcassets */,
 				FA37733027F5FA410089B7D6 /* LaunchScreen.storyboard */,
@@ -143,6 +145,9 @@
 			dependencies = (
 			);
 			name = scantext;
+			packageProductDependencies = (
+				FA37736427F61C0E0089B7D6 /* TextScanSDK */,
+			);
 			productName = scantext;
 			productReference = FA37732227F5FA3D0089B7D6 /* scantext.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = FA37731927F5FA3D0089B7D6;
+			packageReferences = (
+				FA37736327F61C0E0089B7D6 /* XCRemoteSwiftPackageReference "TextScanSDK" */,
+			);
 			productRefGroup = FA37732327F5FA3D0089B7D6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,7 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA37732A27F5FA3D0089B7D6 /* ViewController.swift in Sources */,
+				FA37732A27F5FA3D0089B7D6 /* MyTextScanViewController.swift in Sources */,
 				FA37732627F5FA3D0089B7D6 /* AppDelegate.swift in Sources */,
 				FA37732827F5FA3D0089B7D6 /* SceneDelegate.swift in Sources */,
 			);
@@ -367,7 +375,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -422,7 +430,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -439,6 +447,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4PJ8LAMFH9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = scantext/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -446,6 +455,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,6 +476,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4PJ8LAMFH9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = scantext/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -473,6 +484,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -618,6 +630,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FA37736327F61C0E0089B7D6 /* XCRemoteSwiftPackageReference "TextScanSDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adilanwerawan/TextScanSDK.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FA37736427F61C0E0089B7D6 /* TextScanSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA37736327F61C0E0089B7D6 /* XCRemoteSwiftPackageReference "TextScanSDK" */;
+			productName = TextScanSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FA37731A27F5FA3D0089B7D6 /* Project object */;
 }
