@@ -3,6 +3,6 @@ Scantext is the app for scanning the text from images using Apple's Vision and V
 
 Clean architecture has been implemented in this code using VIP archtitecture design pattern.
 
-Necessary unit tests has been implemented.
+Necessary UI(Integration) tests has been implemented.
 
 Press on save button after taking picture to show the results.
