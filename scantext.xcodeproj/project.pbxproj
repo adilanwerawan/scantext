@@ -9,14 +9,22 @@
 /* Begin PBXBuildFile section */
 		FA37732627F5FA3D0089B7D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA37732527F5FA3D0089B7D6 /* AppDelegate.swift */; };
 		FA37732827F5FA3D0089B7D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA37732727F5FA3D0089B7D6 /* SceneDelegate.swift */; };
-		FA37732A27F5FA3D0089B7D6 /* MyTextScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA37732927F5FA3D0089B7D6 /* MyTextScanViewController.swift */; };
-		FA37732D27F5FA3D0089B7D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA37732B27F5FA3D0089B7D6 /* Main.storyboard */; };
 		FA37732F27F5FA410089B7D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA37732E27F5FA410089B7D6 /* Assets.xcassets */; };
 		FA37733227F5FA410089B7D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA37733027F5FA410089B7D6 /* LaunchScreen.storyboard */; };
-		FA37733D27F5FA420089B7D6 /* scantextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA37733C27F5FA420089B7D6 /* scantextTests.swift */; };
 		FA37734727F5FA420089B7D6 /* scantextUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA37734627F5FA420089B7D6 /* scantextUITests.swift */; };
 		FA37734927F5FA420089B7D6 /* scantextUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA37734827F5FA420089B7D6 /* scantextUITestsLaunchTests.swift */; };
-		FA37736527F61C0E0089B7D6 /* TextScanSDK in Frameworks */ = {isa = PBXBuildFile; productRef = FA37736427F61C0E0089B7D6 /* TextScanSDK */; };
+		FACC86C627F8160D002AA453 /* ScanTextBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACC86C527F8160D002AA453 /* ScanTextBuilder.swift */; };
+		FACC86CD27F81791002AA453 /* ScanTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACC86CC27F81791002AA453 /* ScanTextView.swift */; };
+		FACC86CF27F81865002AA453 /* ScanTextInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACC86CE27F81865002AA453 /* ScanTextInteractor.swift */; };
+		FACC86D127F81917002AA453 /* ScanDataWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACC86D027F81917002AA453 /* ScanDataWorker.swift */; };
+		FACC86D327F81999002AA453 /* ScanTextEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACC86D227F81999002AA453 /* ScanTextEntity.swift */; };
+		FACC86D527F81D9D002AA453 /* ScanTextRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACC86D427F81D9D002AA453 /* ScanTextRouter.swift */; };
+		FACC86D727F81DAC002AA453 /* ScanTextPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACC86D627F81DAC002AA453 /* ScanTextPresenter.swift */; };
+		FACC86DA27F82495002AA453 /* TextScanSDK in Frameworks */ = {isa = PBXBuildFile; productRef = FACC86D927F82495002AA453 /* TextScanSDK */; };
+		FACC86DC27F827B1002AA453 /* ScanTextView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FACC86DB27F827B1002AA453 /* ScanTextView.xib */; };
+		FACC86DE27F8376C002AA453 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACC86DD27F8376C002AA453 /* Main.storyboard */; };
+		FACC86E027F83AB3002AA453 /* TextScanningSuccessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACC86DF27F83AB3002AA453 /* TextScanningSuccessTests.swift */; };
+		FACC86E227F83C8F002AA453 /* TextScanningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACC86E127F83C8F002AA453 /* TextScanningUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,16 +48,24 @@
 		FA37732227F5FA3D0089B7D6 /* scantext.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scantext.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA37732527F5FA3D0089B7D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA37732727F5FA3D0089B7D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FA37732927F5FA3D0089B7D6 /* MyTextScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextScanViewController.swift; sourceTree = "<group>"; };
-		FA37732C27F5FA3D0089B7D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA37732E27F5FA410089B7D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA37733127F5FA410089B7D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA37733327F5FA410089B7D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA37733827F5FA420089B7D6 /* scantextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = scantextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA37733C27F5FA420089B7D6 /* scantextTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scantextTests.swift; sourceTree = "<group>"; };
 		FA37734227F5FA420089B7D6 /* scantextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = scantextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA37734627F5FA420089B7D6 /* scantextUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scantextUITests.swift; sourceTree = "<group>"; };
 		FA37734827F5FA420089B7D6 /* scantextUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scantextUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FACC86C527F8160D002AA453 /* ScanTextBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanTextBuilder.swift; sourceTree = "<group>"; };
+		FACC86CC27F81791002AA453 /* ScanTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanTextView.swift; sourceTree = "<group>"; };
+		FACC86CE27F81865002AA453 /* ScanTextInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanTextInteractor.swift; sourceTree = "<group>"; };
+		FACC86D027F81917002AA453 /* ScanDataWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanDataWorker.swift; sourceTree = "<group>"; };
+		FACC86D227F81999002AA453 /* ScanTextEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanTextEntity.swift; sourceTree = "<group>"; };
+		FACC86D427F81D9D002AA453 /* ScanTextRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanTextRouter.swift; sourceTree = "<group>"; };
+		FACC86D627F81DAC002AA453 /* ScanTextPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanTextPresenter.swift; sourceTree = "<group>"; };
+		FACC86DB27F827B1002AA453 /* ScanTextView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScanTextView.xib; sourceTree = "<group>"; };
+		FACC86DD27F8376C002AA453 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FACC86DF27F83AB3002AA453 /* TextScanningSuccessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextScanningSuccessTests.swift; sourceTree = "<group>"; };
+		FACC86E127F83C8F002AA453 /* TextScanningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextScanningUITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA37736527F61C0E0089B7D6 /* TextScanSDK in Frameworks */,
+				FACC86DA27F82495002AA453 /* TextScanSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,11 +117,11 @@
 		FA37732427F5FA3D0089B7D6 /* scantext */ = {
 			isa = PBXGroup;
 			children = (
+				FACC86C327F815DA002AA453 /* ScanTextModule */,
 				FA37732527F5FA3D0089B7D6 /* AppDelegate.swift */,
 				FA37732727F5FA3D0089B7D6 /* SceneDelegate.swift */,
-				FA37732927F5FA3D0089B7D6 /* MyTextScanViewController.swift */,
-				FA37732B27F5FA3D0089B7D6 /* Main.storyboard */,
 				FA37732E27F5FA410089B7D6 /* Assets.xcassets */,
+				FACC86DD27F8376C002AA453 /* Main.storyboard */,
 				FA37733027F5FA410089B7D6 /* LaunchScreen.storyboard */,
 				FA37733327F5FA410089B7D6 /* Info.plist */,
 			);
@@ -115,7 +131,7 @@
 		FA37733B27F5FA420089B7D6 /* scantextTests */ = {
 			isa = PBXGroup;
 			children = (
-				FA37733C27F5FA420089B7D6 /* scantextTests.swift */,
+				FACC86DF27F83AB3002AA453 /* TextScanningSuccessTests.swift */,
 			);
 			path = scantextTests;
 			sourceTree = "<group>";
@@ -123,10 +139,74 @@
 		FA37734527F5FA420089B7D6 /* scantextUITests */ = {
 			isa = PBXGroup;
 			children = (
+				FACC86E127F83C8F002AA453 /* TextScanningUITests.swift */,
 				FA37734627F5FA420089B7D6 /* scantextUITests.swift */,
 				FA37734827F5FA420089B7D6 /* scantextUITestsLaunchTests.swift */,
 			);
 			path = scantextUITests;
+			sourceTree = "<group>";
+		};
+		FACC86C327F815DA002AA453 /* ScanTextModule */ = {
+			isa = PBXGroup;
+			children = (
+				FACC86CB27F81748002AA453 /* Entity */,
+				FACC86CA27F81740002AA453 /* View */,
+				FACC86C927F81725002AA453 /* Interactor */,
+				FACC86C827F8171B002AA453 /* Worker */,
+				FACC86C727F8170B002AA453 /* Router */,
+				FACC86C427F815EA002AA453 /* Presenter */,
+				FACC86C527F8160D002AA453 /* ScanTextBuilder.swift */,
+			);
+			path = ScanTextModule;
+			sourceTree = "<group>";
+		};
+		FACC86C427F815EA002AA453 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				FACC86D627F81DAC002AA453 /* ScanTextPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		FACC86C727F8170B002AA453 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				FACC86D427F81D9D002AA453 /* ScanTextRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		FACC86C827F8171B002AA453 /* Worker */ = {
+			isa = PBXGroup;
+			children = (
+				FACC86D027F81917002AA453 /* ScanDataWorker.swift */,
+			);
+			path = Worker;
+			sourceTree = "<group>";
+		};
+		FACC86C927F81725002AA453 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				FACC86CE27F81865002AA453 /* ScanTextInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		FACC86CA27F81740002AA453 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FACC86CC27F81791002AA453 /* ScanTextView.swift */,
+				FACC86DB27F827B1002AA453 /* ScanTextView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FACC86CB27F81748002AA453 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				FACC86D227F81999002AA453 /* ScanTextEntity.swift */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,7 +226,7 @@
 			);
 			name = scantext;
 			packageProductDependencies = (
-				FA37736427F61C0E0089B7D6 /* TextScanSDK */,
+				FACC86D927F82495002AA453 /* TextScanSDK */,
 			);
 			productName = scantext;
 			productReference = FA37732227F5FA3D0089B7D6 /* scantext.app */;
@@ -221,7 +301,7 @@
 			);
 			mainGroup = FA37731927F5FA3D0089B7D6;
 			packageReferences = (
-				FA37736327F61C0E0089B7D6 /* XCRemoteSwiftPackageReference "TextScanSDK" */,
+				FACC86D827F82495002AA453 /* XCRemoteSwiftPackageReference "TextScanSDK" */,
 			);
 			productRefGroup = FA37732327F5FA3D0089B7D6 /* Products */;
 			projectDirPath = "";
@@ -241,7 +321,8 @@
 			files = (
 				FA37733227F5FA410089B7D6 /* LaunchScreen.storyboard in Resources */,
 				FA37732F27F5FA410089B7D6 /* Assets.xcassets in Resources */,
-				FA37732D27F5FA3D0089B7D6 /* Main.storyboard in Resources */,
+				FACC86DC27F827B1002AA453 /* ScanTextView.xib in Resources */,
+				FACC86DE27F8376C002AA453 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,9 +347,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA37732A27F5FA3D0089B7D6 /* MyTextScanViewController.swift in Sources */,
+				FACC86D727F81DAC002AA453 /* ScanTextPresenter.swift in Sources */,
+				FACC86D127F81917002AA453 /* ScanDataWorker.swift in Sources */,
+				FACC86C627F8160D002AA453 /* ScanTextBuilder.swift in Sources */,
+				FACC86D527F81D9D002AA453 /* ScanTextRouter.swift in Sources */,
+				FACC86CD27F81791002AA453 /* ScanTextView.swift in Sources */,
+				FACC86D327F81999002AA453 /* ScanTextEntity.swift in Sources */,
 				FA37732627F5FA3D0089B7D6 /* AppDelegate.swift in Sources */,
 				FA37732827F5FA3D0089B7D6 /* SceneDelegate.swift in Sources */,
+				FACC86CF27F81865002AA453 /* ScanTextInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +363,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA37733D27F5FA420089B7D6 /* scantextTests.swift in Sources */,
+				FACC86E027F83AB3002AA453 /* TextScanningSuccessTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +373,7 @@
 			files = (
 				FA37734927F5FA420089B7D6 /* scantextUITestsLaunchTests.swift in Sources */,
 				FA37734727F5FA420089B7D6 /* scantextUITests.swift in Sources */,
+				FACC86E227F83C8F002AA453 /* TextScanningUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,14 +393,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FA37732B27F5FA3D0089B7D6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FA37732C27F5FA3D0089B7D6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FA37733027F5FA410089B7D6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -375,7 +455,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -430,7 +510,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -450,12 +530,13 @@
 				DEVELOPMENT_TEAM = 4PJ8LAMFH9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = scantext/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This application requires camera access permission to scan the text from images.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -479,12 +560,13 @@
 				DEVELOPMENT_TEAM = 4PJ8LAMFH9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = scantext/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This application requires camera access permission to scan the text from images.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -505,6 +587,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4PJ8LAMFH9;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -529,6 +612,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4PJ8LAMFH9;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -552,6 +636,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4PJ8LAMFH9;
 				GENERATE_INFOPLIST_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -574,6 +659,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4PJ8LAMFH9;
 				GENERATE_INFOPLIST_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -632,7 +718,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		FA37736327F61C0E0089B7D6 /* XCRemoteSwiftPackageReference "TextScanSDK" */ = {
+		FACC86D827F82495002AA453 /* XCRemoteSwiftPackageReference "TextScanSDK" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/adilanwerawan/TextScanSDK.git";
 			requirement = {
@@ -643,9 +729,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		FA37736427F61C0E0089B7D6 /* TextScanSDK */ = {
+		FACC86D927F82495002AA453 /* TextScanSDK */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = FA37736327F61C0E0089B7D6 /* XCRemoteSwiftPackageReference "TextScanSDK" */;
+			package = FACC86D827F82495002AA453 /* XCRemoteSwiftPackageReference "TextScanSDK" */;
 			productName = TextScanSDK;
 		};
 /* End XCSwiftPackageProductDependency section */

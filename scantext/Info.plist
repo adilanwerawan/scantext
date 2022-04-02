@@ -21,7 +21,5 @@
 			</array>
 		</dict>
 	</dict>
-	<key>NSCameraUsageDescription</key>
-	<string>This application requires camera access permission to scan the text from images.</string>
 </dict>
 </plist>

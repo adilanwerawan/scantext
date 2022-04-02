@@ -7,31 +7,127 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "647B3520-B099-4398-9604-F73C676225F9"
+            uuid = "1EF53925-7124-4DA6-9F86-7DC89369C6D6"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "scantext/MyTextScanViewController.swift"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/scantext-gjfcjkcoftbaqlaxentmznzfellq/SourcePackages/checkouts/TextScanSDK2/Sources/TextScanSDK/TextScanner.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
-            landmarkName = "MyTextScanViewController"
-            landmarkType = "21">
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "getScannedText(presentOnView:resultView:callBackDelegate:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "6456ADE3-52C6-4F4E-A474-8C9F83B4DD1C"
+            uuid = "E0D64F38-1757-47D8-A0EE-1AC595B666BD"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../../../Library/Developer/Xcode/DerivedData/scantext-gjfcjkcoftbaqlaxentmznzfellq/SourcePackages/checkouts/TextScanSDK/Sources/TextScanSDK/TextScanner.swift"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/scantext-gjfcjkcoftbaqlaxentmznzfellq/SourcePackages/checkouts/TextScanSDK2/Sources/TextScanSDK/TextScanner.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "getScannedText(presentOnView:resultView:callBackDelegate:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CD4F0BE6-A82F-4E04-94FA-C30AB1797061"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/scantext-gjfcjkcoftbaqlaxentmznzfellq/SourcePackages/checkouts/TextScanSDK2/Sources/TextScanSDK/TextScanner.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "getScannedText(presentOnView:resultView:callBackDelegate:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "38FC5148-DD0C-4F25-B38C-B043DAD760EB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/scantext-gjfcjkcoftbaqlaxentmznzfellq/SourcePackages/checkouts/TextScanSDK2/Sources/TextScanSDK/TextScanner.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "documentCameraViewController(_:didFinishWith:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A0451CC9-5D44-476C-83F0-282F19D74813"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/scantext-gjfcjkcoftbaqlaxentmznzfellq/SourcePackages/checkouts/TextScanSDK2/Sources/TextScanSDK/TextScanner.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "documentCameraViewController(_:didFinishWith:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AB27BA19-363C-440A-968A-3CC2FEB28E0B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/scantext-gjfcjkcoftbaqlaxentmznzfellq/SourcePackages/checkouts/TextScanSDK2/Sources/TextScanSDK/TextScanner.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "getScannedText(presentOnView:resultView:callBackDelegate:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "02C7F33E-DB68-44F4-A27A-EC1125D00CAE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/scantext-gjfcjkcoftbaqlaxentmznzfellq/SourcePackages/checkouts/TextScanSDK2/Sources/TextScanSDK/TextScanner.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "documentCameraViewController(_:didFinishWith:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E1AEE561-505F-44F4-8CF9-180A27C29F18"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/scantext-gjfcjkcoftbaqlaxentmznzfellq/SourcePackages/checkouts/TextScanSDK2/Sources/TextScanSDK/TextScanner.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
             landmarkName = "getScannedText(presentOnView:resultView:callBackDelegate:)"
             landmarkType = "7">
          </BreakpointContent>
